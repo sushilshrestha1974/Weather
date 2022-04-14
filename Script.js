@@ -1,6 +1,5 @@
 const zip_code = document.getElementById('zipcode')
 const City = document.getElementById('city-name')
-const weather = document.getElementById('Weather')
 const wind = document.getElementById('temperature')
 const lat=document.getElementById('lat')
 const lon =document.getElementById('lon')
@@ -17,7 +16,7 @@ const temp_humid =document.getElementById('humidity')
 button.addEventListener('click', ()=> Show_weather());
 function Show_weather(){
   let zipcode = zip_code.value
-  fetch (`https://api.openweathermap.org/data/2.5/weather?zip=${zipcode},us&appid=50172642005b6454fb7d983ee4a3d9f6`)
+  fetch (`https://api.openweathermap.org/data/2.5/weather?zip=${zipcode}&units=imperial&us&appid=50172642005b6454fb7d983ee4a3d9f6`)
   .then(response => response.json())
   .then(data=>{
   lat.innerHTML=data.coord.lat
