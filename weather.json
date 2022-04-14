@@ -1,0 +1,41 @@
+{
+	"coord": {
+		"lon": -84.592,
+		"lat": 33.8972
+	},
+	"weather": [{
+		"id": 804,
+		"main": "Clouds",
+		"description": "overcast clouds",
+		"icon": "04d"
+	}],
+	"base": "stations",
+	"main": {
+		"temp": 290.93,
+		"feels_like": 291.06,
+		"temp_min": 288.79,
+		"temp_max": 292.46,
+		"pressure": 1016,
+		"humidity": 88
+	},
+	"visibility": 10000,
+	"wind": {
+		"speed": 5.14,
+		"deg": 270
+	},
+	"clouds": {
+		"all": 100
+	},
+	"dt": 1649950102,
+	"sys": {
+		"type": 2,
+		"id": 2022713,
+		"country": "US",
+		"sunrise": 1649934514,
+		"sunset": 1649981294
+	},
+	"timezone": -14400,
+	"id": 0,
+	"name": "Marietta",
+	"cod": 200
+}
